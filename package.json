@@ -1,0 +1,16 @@
+{
+  "name": "joe-vue",
+  "version": "1.0.0",
+  "description": "CLI for creating vue files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miaababikir",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1"
+  }
+}
