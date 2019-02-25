@@ -14,12 +14,32 @@ Install the package from npm
 npm install -g joe-vue
 ```
 
+## Configuration
+
+Change default path for creating file
+
+```
+joe-vue set:path newPath
+```
+
 ## How to use it
 
 Create vue component file
 
 ```
 joe-vue make:component FooComponent
+```
+
+Create vue view file
+
+```
+joe-vue make:view FooView
+```
+
+Create javascript file
+
+```
+joe-vue make:js FooScript
 ```
 
 ## Built With

@@ -1,6 +1,6 @@
 {
   "name": "joe-vue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for creating vue files.",
   "main": "index.js",
   "preferGlobal": true,
@@ -12,7 +12,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sonyzach/usfm-validator.git"
+    "url": "https://github.com/Miaababikir/JoeVue.git"
   },
   "dependencies": {
     "chalk": "^2.4.2",
