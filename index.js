@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 let program = require('commander');
 let CommandConstructor = require('./src/Commands/constructors').CommandConstructor;
 

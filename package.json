@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "description": "CLI for creating vue files.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Miaababikir",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyzach/usfm-validator.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
