@@ -16,9 +16,18 @@ class Config {
         }
     }
 
+    setConfig(config) {
+        this.writeJson(this.configFile, config);
+    }
+
     readJson(file) {
         file = this.resolve(file);
         return fs.readJsonSync(file);
+    }
+
+    writeJson(file, content) {
+        file = this.resolve(file);
+        return fs.writeJsonSync(file, content);
     }
 
     resolve(file) {
