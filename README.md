@@ -16,10 +16,10 @@ npm install -g joe-vue
 
 ## Configuration
 
-Change default path for creating file
+Change default path for creating file (Don't forget about the '/' at the end ^_^, We will fix it next release)
 
 ```
-joe-vue set:path newPath
+joe-vue set:path newPath/
 ```
 
 ## How to use it
