@@ -22,6 +22,18 @@ Change default path for creating file (Don't forget about the '/' at the end ^_^
 joe-vue set:path newPath/
 ```
 
+Change default path by selecting some of our preset configuration
+
+For Vue js preset
+```
+joe-vue set:preset vue
+```
+
+For Laravel preset
+```
+joe-vue set:preset laravel
+```
+
 ## How to use it
 
 Create vue component file

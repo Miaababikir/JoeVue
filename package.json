@@ -1,6 +1,6 @@
 {
   "name": "joe-vue",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "CLI for creating vue files.",
   "main": "index.js",
   "preferGlobal": true,
